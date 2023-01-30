@@ -27,7 +27,7 @@ def bfs(x,y):
             if g[nx][ny] == 0:
                 continue
 
-            #처음 방무나는 경우에만 최단거리 기록
+            #처음 방문하는 경우에만 최단거리 기록
             if g[nx][ny] ==1:
                 g[nx][ny]=g[x][y]+1
                 q.append((nx,ny))
