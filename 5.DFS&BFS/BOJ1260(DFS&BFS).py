@@ -26,8 +26,8 @@ def bfs():
         #방문 안한 인접노드 처리
         for next in g[curr]:
             if visit[next]==False:
-	   q.append(next) #큐에 넣고
-                visit[next]=True #방문
+	   	q.append(next) #큐에 넣고
+                	visit[next]=True #방문
                 
 
 n,m,v=map(int,input().split())
