@@ -1,3 +1,4 @@
+# 킹
 d=['A','B','C','D','E','F','G','H']
 k, r, n = input().split()
 g=[[0]*8 for i in range(8)]
