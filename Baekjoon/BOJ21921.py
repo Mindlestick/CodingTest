@@ -1,3 +1,4 @@
+# 블로그
 n,x=map(int,input().split())
 nlist=list(map(int,input().split()))
 init=sum(nlist[:x])
